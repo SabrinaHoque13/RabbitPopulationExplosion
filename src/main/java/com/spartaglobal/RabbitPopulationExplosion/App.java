@@ -6,8 +6,13 @@ package com.spartaglobal.RabbitPopulationExplosion;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+
+    MakeRabbit makeFemaleRabbit = new MakeRabbit();
+    makeFemaleRabbit.Birth();
+
+//        MaturityConditions maturityConditions = new MaturityConditions();
+//        maturityConditions.CanBreed();
+
     }
 }
